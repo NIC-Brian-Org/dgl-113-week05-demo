@@ -31,14 +31,15 @@ document.querySelector("#section1").innerHTML += `The input total is ${sum}`;
 document.querySelector("#section1").innerHTML += `i is : ${i}`;
 */
 let sum = 0;
-for (let j =0; j < 5; j++) {
+let j=0;
+for (j =0; j < 5; j++) {
   let input = prompt("enter a number please");
   let value = Number(input);
   sum += value;
 }
 document.querySelector("#section1").innerHTML += `The input total is ${sum}`;
 document.querySelector("#section1").innerHTML += `j is : ${j}`;
-for (let j =0; j < 5; j++) {
+for (j =0; j < 5; j++) {
   let input = prompt("enter a number please");
   let value = Number(input);
   sum += value;
